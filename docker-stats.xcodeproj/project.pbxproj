@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		408A9B3B261BEBB3007B7325 /* docker_statsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408A9B3A261BEBB3007B7325 /* docker_statsApp.swift */; };
+		408A9B3B261BEBB3007B7325 /* DockerStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408A9B3A261BEBB3007B7325 /* DockerStatsApp.swift */; };
 		408A9B3D261BEBB3007B7325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408A9B3C261BEBB3007B7325 /* ContentView.swift */; };
 		408A9B3F261BEBB4007B7325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408A9B3E261BEBB4007B7325 /* Assets.xcassets */; };
 		408A9B42261BEBB4007B7325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408A9B41261BEBB4007B7325 /* Preview Assets.xcassets */; };
+		408A9B56261BF326007B7325 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408A9B55261BF326007B7325 /* StatusBarController.swift */; };
+		408A9B59261BF683007B7325 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408A9B58261BF683007B7325 /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		408A9B37261BEBB3007B7325 /* docker-stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "docker-stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		408A9B3A261BEBB3007B7325 /* docker_statsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = docker_statsApp.swift; sourceTree = "<group>"; };
+		408A9B3A261BEBB3007B7325 /* DockerStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerStatsApp.swift; sourceTree = "<group>"; };
 		408A9B3C261BEBB3007B7325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		408A9B3E261BEBB4007B7325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408A9B41261BEBB4007B7325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		408A9B43261BEBB4007B7325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408A9B44261BEBB4007B7325 /* docker_stats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = docker_stats.entitlements; sourceTree = "<group>"; };
+		408A9B55261BF326007B7325 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		408A9B58261BF683007B7325 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +57,14 @@
 		408A9B39261BEBB3007B7325 /* docker-stats */ = {
 			isa = PBXGroup;
 			children = (
-				408A9B3A261BEBB3007B7325 /* docker_statsApp.swift */,
+				408A9B3A261BEBB3007B7325 /* DockerStatsApp.swift */,
 				408A9B3C261BEBB3007B7325 /* ContentView.swift */,
 				408A9B3E261BEBB4007B7325 /* Assets.xcassets */,
 				408A9B43261BEBB4007B7325 /* Info.plist */,
 				408A9B44261BEBB4007B7325 /* docker_stats.entitlements */,
 				408A9B40261BEBB4007B7325 /* Preview Content */,
+				408A9B55261BF326007B7325 /* StatusBarController.swift */,
+				408A9B58261BF683007B7325 /* EventMonitor.swift */,
 			);
 			path = "docker-stats";
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				408A9B3D261BEBB3007B7325 /* ContentView.swift in Sources */,
-				408A9B3B261BEBB3007B7325 /* docker_statsApp.swift in Sources */,
+				408A9B56261BF326007B7325 /* StatusBarController.swift in Sources */,
+				408A9B3B261BEBB3007B7325 /* DockerStatsApp.swift in Sources */,
+				408A9B59261BF683007B7325 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

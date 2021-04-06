@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        VStack{
+            Text("Hello, world!").padding()
+            Button("Ok", action: {
+            }).padding()
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)    }
 }
 
 struct ContentView_Previews: PreviewProvider {
